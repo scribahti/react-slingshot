@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
-import FuelSavingsResults from './FuelSavingsResults';
-import FuelSavingsTextInput from './FuelSavingsTextInput';
+import FuelSavingsResults from './results';
+import FuelSavingsTextInput from './textInput';
 
 class FuelSavingsForm extends React.Component {
   constructor(props, context) {

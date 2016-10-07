@@ -1,7 +1,7 @@
-import {SAVE_FUEL_SAVINGS, CALCULATE_FUEL_SAVINGS} from '../constants/actionTypes';
-import calculator from '../utils/fuelSavingsCalculator';
+import {SAVE_FUEL_SAVINGS, CALCULATE_FUEL_SAVINGS} from './constants/actionTypes';
+import calculator from './utils/fuelSavingsCalculator';
 import objectAssign from 'object-assign';
-import initialState from './initialState';
+import initialState from '../store/initialState';
 
 // IMPORTANT: Note that with Redux, state should NEVER be changed.
 // State is considered immutable. Instead,

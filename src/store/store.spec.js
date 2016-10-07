@@ -1,13 +1,13 @@
-import * as ActionTypes from '../constants/actionTypes';
+import * as ActionTypes from '../fuelSavings/constants/actionTypes';
 
 import MockDate from 'mockdate';
 import { expect } from 'chai';
 import { createStore } from 'redux';
 
-import calculator from '../utils/fuelSavingsCalculator';
+import calculator from '../fuelSavings/utils/fuelSavingsCalculator';
 import dateHelper from '../utils/dateHelper';
-import initialState from '../reducers/initialState';
-import rootReducer from '../reducers';
+import initialState from './initialState';
+import rootReducer from './reducer';
 
 describe('Store', () => {
   let dateModified;

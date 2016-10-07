@@ -1,8 +1,8 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import * as actions from '../actions/fuelSavingsActions';
-import FuelSavingsForm from '../components/FuelSavingsForm';
+import * as actions from './actions';
+import FuelSavingsForm from './components/form';
 
 export const FuelSavingsPage = (props) => {
   return (

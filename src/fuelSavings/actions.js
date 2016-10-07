@@ -1,4 +1,4 @@
-import * as types from '../constants/actionTypes';
+import * as types from './constants/actionTypes';
 
 import dateHelper from '../utils/dateHelper';
 
